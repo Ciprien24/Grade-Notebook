@@ -1,0 +1,54 @@
+body {
+    background-image: url("./image.png");
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as needed */
+    height: 400px; /* Set the height to make it longer vertically */
+    text-align: center;
+    display: flex; /* Add display flex */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: space-evenly; /* Adjust spacing */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Make label text bold */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Adjust margin */
+}
+
+button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
